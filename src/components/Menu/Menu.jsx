@@ -7,7 +7,7 @@ import feature4 from "@Assets/image/feature4.png";
 
 const Menu = () => {
   return (
-    <div className="featureSelectionPage dnestw-h-[100vh] dnestw-bg-[#d44e29]  dnestw-text-[#ffd2d2] dnestw-pl-[25%] md:dnestw-pl-[15%]">
+    <div className="featureSelectionPage dnestw-h-[100vh]  dnestw-bg-orange-400  dnestw-text-[#ffd2d2] dnestw-pl-[25%] md:dnestw-pl-[15%]">
       <div className="featuresContent dnestw-pt-[5.188rem]">
         <h4 className="dnestw-font-normal dnestw-text-[1.2rem] md:dnestw-text-[1.875rem]">
           Welcome to
@@ -22,7 +22,7 @@ const Menu = () => {
         </p>
         <div className="features dnestw-pb-40 dnestw-mt-[1.688rem] dnestw-flex dnestw-flex-col dnestw-w-[18.188rem] dnestw-gap-[2rem] dnestw-flex-wrap   md:dnestw-flex-row md:dnestw-justify-start md:dnestw-w-[100%] md:dnestw-pb-[18.4%]">
           <Link to="change-password">
-            <div className="feature dnestw-p-5 dnestw-w-[16.188rem] dnestw-bg-orange-400  dnestw-shadow-sm  dnestw-shadow-[#ff9e5d]">
+            <div className="feature dnestw-p-5 dnestw-w-[16.188rem] dnestw-bg-[#d44e29] dnestw-shadow-sm  dnestw-shadow-[#ff9e5d]">
               <div className="dnestw-mx-[1.188rem] dnestw-mt-10 dnestw-flex dnestw-flex-col dnestw-gap-3">
                 <img
                   src={feature1}

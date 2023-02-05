@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="dnestw-flex dnestw-flex-col dnestw-h-screen dnestw-p-3 dnestw-bg-[#e66b49] dnestw-shadow ">
+    <div className="dnestw-flex dnestw-flex-col dnestw-h-screen dnestw-p-3 dnestw-bg-[#a14303] dnestw-shadow ">
       <div className="dnestw-space-y-3">
         <Link to="/menu">
           <div className="dnestw-flex dnestw-items-center">

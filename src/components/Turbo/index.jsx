@@ -19,7 +19,7 @@ const Turbo = () => {
                           alt="logo"
                         />
                         <h4 class="dnestw-text-xl dnestw-font-semibold dnestw-mt-1 dnestw-mb-12 dnestw-pb-1">
-                          We are The Lotus Team
+                          All New Password Rotater
                         </h4>
                       </div>
                       <form>
@@ -43,7 +43,7 @@ const Turbo = () => {
                         <div class="dnestw-text-center dnestw-pt-1 dnestw-mb-12 dnestw-pb-1">
                           <Link to="/menu">
                             <button
-                              class="dnestw-inline-block dnestw-px-6 dnestw-py-2.5 dnestw-text-white dnestw-text-red-400 dnestw-font-medium dnestw-text-xs dnestw-leading-tight dnestw-uppercase dnestw-rounded dnestw-shadow-md hover:dnestw-bg-blue-700 hover:dnestw-shadow-lg focus:dnestw-shadow-lg focus:dnestw-outline-none focus:dnestw-ring-0 active:dnestw-shadow-lg dnestw-transition dnestw-duration-150 dnestw-ease-in-out dnestw-w-full dnestw-mb-3"
+                              class="dnestw-inline-block dnestw-bg-gradient-to-r dnestw-from-[#ee7724] dnestw-to-[#b44593] dnestw-px-6 dnestw-py-2.5 dnestw-text-white dnestw-font-medium dnestw-text-xs dnestw-leading-tight dnestw-uppercase dnestw-rounded dnestw-shadow-md hover:dnestw-bg-blue-700 hover:dnestw-shadow-lg focus:dnestw-shadow-lg focus:dnestw-outline-none focus:dnestw-ring-0 active:dnestw-shadow-lg dnestw-transition dnestw-duration-150 dnestw-ease-in-out dnestw-w-full dnestw-mb-3"
                               type="button"
                               data-mdb-ripple="true"
                               data-mdb-ripple-color="light"
@@ -82,7 +82,7 @@ const Turbo = () => {
                     </div>
                   </div>
                   <div
-                    class="lg:dnestw-w-6/12 dnestw-flex dnestw-items-center lg:dnestw-rounded-r-lg dnestw-rounded-b-lg lg:dnestw-rounded-bl-none dnestw-bg-red-400"
+                    class="lg:dnestw-w-6/12 dnestw-flex dnestw-bg-gradient-to-r dnestw-from-[##ee7724] dnestw-to-[#b44593]  dnestw-items-center lg:dnestw-rounded-r-lg dnestw-rounded-b-lg lg:dnestw-rounded-bl-none dnestw-bg-red-400"
                     //         style="
                     //     background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
                     //   "
