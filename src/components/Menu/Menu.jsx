@@ -7,7 +7,7 @@ import feature4 from "@Assets/image/feature4.png";
 
 const Menu = () => {
   return (
-    <div className="featureSelectionPage dnestw-h-[100vh] dnestw-bg-[#EB572F]  dnestw-text-[#FFFFFF] dnestw-pl-[25%] md:dnestw-pl-[15%]">
+    <div className="featureSelectionPage dnestw-h-[100vh] dnestw-bg-[#d44e29]  dnestw-text-[#ffd2d2] dnestw-pl-[25%] md:dnestw-pl-[15%]">
       <div className="featuresContent dnestw-pt-[5.188rem]">
         <h4 className="dnestw-font-normal dnestw-text-[1.2rem] md:dnestw-text-[1.875rem]">
           Welcome to
