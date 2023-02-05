@@ -1,9 +1,8 @@
 ### Quick start
 
-1.  Clone repo using `git clone https://github.com/naxa-developers/<Your Project>`
-2.  Run `npm i` in order to install dependencies.<br />
-3.  Now you can run `npm start` to see the example app at `http://localhost:8080`
-4.  Copy .env.sample and paste in the root directory and rename it to .env.
+1.  Run `npm i` in order to install dependencies.<br />
+2.  Now you can run `npm start` to see the example app at `http://localhost:8080`
+3.  Copy .env.sample and paste in the root directory and rename it to .env.
 
 ### Features/Library You need to know
 

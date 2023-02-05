@@ -16,8 +16,8 @@ const Topic = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className="naxatw-ml-10">
-      <h1 className="naxatw-text-red-500">Topic</h1>
+    <div className="dnestw-ml-10">
+      <h1 className="dnestw-text-red-500">Topic</h1>
 
       <input
         type="text"

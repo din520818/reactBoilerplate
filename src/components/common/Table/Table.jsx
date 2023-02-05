@@ -187,7 +187,7 @@ export default class Table extends Component {
     const { showHeader, className, style, tableClassName } = this.props;
 
     return (
-      <div className={`naxa-table is-overflow ${tableClassName}`} style={style}>
+      <div className={`dnes-table is-overflow ${tableClassName}`} style={style}>
         <table className={`table ${className}`}>
           {showHeader && (
             <thead>

@@ -86,5 +86,5 @@ module.exports = {
     },
   },
   plugins: [],
-  prefix: 'naxatw-',
+  prefix: 'dnestw-',
 };
