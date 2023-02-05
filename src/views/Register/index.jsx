@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
-import registerActions from '@Actions/register';
-import Loader from '@Components/common/Loader';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { Link } from "react-router-dom";
+import registerActions from "@Actions/register";
+import Loader from "@Components/common/Loader";
 
 class Register extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      username: '',
-      email: '',
-      phone: '',
-      password: '',
+      username: "",
+      email: "",
+      phone: "",
+      password: "",
     };
   }
 
@@ -93,11 +93,17 @@ class Register extends Component {
                   onChange={handleInputChange}
                   required
                 />
-                <button className="btn btn-lg btn-primary btn-block" type="submit">
+                <button
+                  className="btn btn-lg btn-primary btn-block"
+                  type="submit"
+                >
                   Register
                 </button>
                 <span className="clearfix" />
-                <Link className="btn btn-lg btn-primary btn-block mt-10" to="/login">
+                <Link
+                  className="btn btn-lg btn-primary btn-block mt-10"
+                  to="/login"
+                >
                   Login
                 </Link>
               </form>
@@ -124,7 +130,8 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => ({
-  registerUserRequest: (payload) => dispatch(registerActions.registerUserRequest(payload)),
+  registerUserRequest: (payload) =>
+    dispatch(registerActions.registerUserRequest(payload)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Register);
